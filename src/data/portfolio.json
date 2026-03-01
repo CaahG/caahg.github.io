@@ -1,0 +1,506 @@
+{
+  "pt": {
+    "profile": {
+      "name": "Caroline Gonzaga",
+      "initials": "CG",
+      "title": "Software QA Engineer | Testes Manuais & Automatizados",
+      "subtitle": "Focada em planejamento, execução e melhoria contínua de estratégias de teste para aplicações modernas.",
+      "email": "carolinegonzaga04@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/caroline-gonzaga-440072304/",
+      "github": "https://github.com/CaahG",
+      "twitter": "#",
+      "behance": "#",
+      "medium": "#",
+      "coverageRate": "95%+",
+      "resumeLink": "/cv-caroline-gonzaga.pdf"
+    },
+    "nav": {
+      "about": "Sobre",
+      "experience": "Experiência",
+      "skills": "Habilidades",
+      "projects": "Projetos",
+      "contact": "Contato",
+      "value": "Diferenciais",
+      "certs": "Certificações"
+    },
+    "hero": {
+      "title": "Software QA Engineer &",
+      "highlight": "Foco em Automação",
+      "viewProjects": "Ver Projetos",
+      "getInTouch": "Contato",
+      "downloadResume": "Baixar Currículo"
+    },
+    "stats": [
+      { "label": "Automação", "value": "Playwright", "type": "primary" },
+      { "label": "Mobile", "value": "Appium", "type": "primary" },
+      { "label": "Testes", "value": "Jest", "type": "primary" },
+      { "label": "API", "value": "Postman", "type": "secondary" },
+      { "label": "Banco de Dados", "value": "Postgres/SQL", "type": "primary" }
+    ],
+    "valueProposition": {
+      "title": "Por que me contratar?",
+      "items": [
+        {
+          "title": "Foco em Qualidade",
+          "description": "Garantia de que cada entrega atenda aos mais altos padrões de excelência e funcionalidade.",
+          "icon": "Verified"
+        },
+        {
+          "title": "Eficiência com IA",
+          "description": "Uso estratégico de ferramentas de IA para acelerar ciclos de teste e aumentar a precisão.",
+          "icon": "Zap"
+        },
+        {
+          "title": "Testes Full-Stack",
+          "description": "Domínio completo em automação de Web, Mobile e APIs, garantindo cobertura total.",
+          "icon": "Layers"
+        },
+        {
+          "title": "Colaboração Ágil",
+          "description": "Integração fluida em times Scrum, focada em feedback construtivo e melhoria de processos.",
+          "icon": "Users"
+        }
+      ]
+    },
+    "experience": [
+      {
+        "role": "Software QA Analyst",
+        "company": "XBri",
+        "period": "Fevereiro 2025 — Presente",
+        "description": "Liderança técnica em estratégias de qualidade, com foco em automação e integração contínua.",
+        "highlights": [
+          "Testes manuais e automatizados de responsividade em web e mobile.",
+          "Validação de integridade de dados em bancos PostgreSQL.",
+          "Desenvolvimento de CI com GitHub Actions para automação de suítes de teste.",
+          "Criação de planos de teste detalhados e guias de usabilidade.",
+          "Participação ativa em cerimônias Scrum (Daily, Planning, Retro).",
+          "Execução de testes em ambientes Docker e Docker Compose."
+        ],
+        "current": true
+      },
+      {
+        "role": "QA Analyst",
+        "company": "AxeHarbor",
+        "period": "Janeiro 2023 — Março 2025",
+        "description": "Início da jornada em TI com foco em garantia de qualidade de produtos internos.",
+        "highlights": [
+          "Desenvolvimento e execução de testes automatizados com Playwright para Web e API.",
+          "QA de APIs utilizando Postman para validação de requisitos.",
+          "Documentação meticulosa de processos e criação de guias de melhores práticas.",
+          "Feedback construtivo em cerimônias ágeis para melhoria de usabilidade."
+        ],
+        "current": false
+      }
+    ],
+    "skills": [
+      {
+        "category": "Automação & Mobile",
+        "icon": "Bot",
+        "items": ["Playwright", "Appium (Android/iOS)", "Jest", "Cypress", "Selenium"],
+        "color": "primary"
+      },
+      {
+        "category": "Manual & Estratégia",
+        "icon": "Search",
+        "items": ["Testes de Regressão", "Exploração", "Aceitação", "Planejamento", "Ciclo de Dev"],
+        "color": "primary"
+      },
+      {
+        "category": "Ferramentas & Backend",
+        "icon": "Wrench",
+        "items": ["Postman", "SQL (Postgres/SQLite)", "Docker", "Git/Github", "Jira/ClickUp"],
+        "color": "secondary"
+      },
+      {
+        "category": "IA & Inovação",
+        "icon": "Brain",
+        "items": ["Gemini", "OpenAI", "QA com IA", "Engenharia de Prompt"],
+        "color": "primary",
+        "special": true
+      }
+    ],
+    "skillsHeader": {
+      "subtitle": "Testes Multiplataforma (Web, Mobile, API) com integração de IA"
+    },
+    "certifications": {
+      "title": "Licenças e Certificados",
+      "items": [
+        {
+          "title": "QA Engineer",
+          "issuer": "TripleTen",
+          "date": "Nov 2025",
+          "link": "https://www.linkedin.com/in/caroline-gonzaga-440072304/overlay/1772377401709/single-media-viewer?type=DOCUMENT"
+        },
+        {
+          "title": "Automação de Testes de Aplicativos Web",
+          "issuer": "TripleTen Brasil",
+          "date": "Out 2025",
+          "link": "https://www.linkedin.com/in/caroline-gonzaga-440072304/details/certifications/"
+        },
+        {
+          "title": "Teste Móvel!",
+          "issuer": "TripleTen Brasil",
+          "date": "Ago 2025",
+          "link": "https://tripleten.com/trainer/qa-engineer/lesson/55668ac6-fdef-49d7-aa0a-d6f7690b567a/"
+        },
+        {
+          "title": "Fundamentos da Cultura DevOps",
+          "issuer": "Rocketseat",
+          "date": "Mai 2025",
+          "link": "https://app.rocketseat.com.br/certificates/86f203a8-4a88-434e-af28-aa7e95bc5b14"
+        },
+        {
+          "title": "Dominando o PLAYWRIGHT!",
+          "issuer": "Udemy",
+          "date": "Mai 2024",
+          "link": "https://www.udemy.com/certificate/UC-3374fb8f-2d7f-4c87-84a4-924555728bea/"
+        },
+        {
+          "title": "Dominando Postman: Testando e Automatizando APIs",
+          "issuer": "Udemy",
+          "date": "Abr 2024",
+          "link": "https://ude.my/UC-2c19cab7-4497-4bdd-9c56-c8187f81ef71"
+        },
+        {
+          "title": "Git Completo: Do Básico ao Avançado",
+          "issuer": "Udemy",
+          "date": "Mar 2024",
+          "link": "https://ude.my/UC-7d4e53ae-3324-44dd-b8bb-fda67b532de4"
+        },
+        {
+          "title": "Testes Automáticos + Curso COMPLETO de Teste de Software",
+          "issuer": "Udemy",
+          "date": "Jun 2024",
+          "link": "https://www.udemy.com/certificate/UC-d2d65d22-55c6-44e1-82b8-28f0ebe27838/"
+        },
+        {
+          "title": "JAVASCRIPT e Projetos Reais",
+          "issuer": "Udemy",
+          "date": "Mai 2024",
+          "link": "https://www.udemy.com/certificate/UC-6a46bf31-8b47-4386-8f15-2c478cd08569/"
+        },
+        {
+          "title": "Desenvolvimento Web para QAs",
+          "issuer": "Udemy",
+          "date": "Mar 2024",
+          "link": "https://ude.my/UC-557bc88c-533b-422f-94d3-cafddfffe84c"
+        },
+        {
+          "title": "Teste de API",
+          "issuer": "TripleTen",
+          "date": "Set 2024",
+          "link": "https://www.linkedin.com/in/caroline-gonzaga-440072304/details/certifications/"
+        },
+        {
+          "title": "Teste de Aplicativos Web",
+          "issuer": "TripleTen",
+          "date": "Ago 2024",
+          "link": "https://www.linkedin.com/in/caroline-gonzaga-440072304/details/certifications/"
+        }
+      ]
+    },
+    "education": {
+      "title": "Formação Acadêmica",
+      "badge": {
+        "title": "Aprendizado Contínuo",
+        "subtitle": "Sempre atualizada com as últimas tendências de QA"
+      },
+      "items": [
+        {
+          "title": "Bootcamp Engenharia de Software",
+          "institution": "TripleTen Brasil",
+          "year": "2024"
+        },
+        {
+          "title": "Tecnólogo em Marketing Digital",
+          "institution": "Ensino Superior",
+          "year": "2022"
+        },
+        {
+          "title": "Curso Técnico em Informática",
+          "institution": "Ensino Técnico",
+          "year": "2018"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projetos em Destaque",
+      "subtitle": "Soluções reais de testes",
+      "githubLink": "Repositórios no GitHub",
+      "items": [
+        {
+          "title": "Suíte de Automação E-Commerce",
+          "description": "Framework robusto de testes E2E usando Playwright e Page Object Model para fluxos críticos de checkout.",
+          "tags": ["Playwright", "TypeScript", "CI/CD"],
+          "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBmAS1TQ_0gk7ZTPKWgm1LjE8DzPf0Se8aDaT637QZOZwfBVAUTY8dYiT6t_CeJ-y8cWM6Ekdsb3PtSKtJcL0tqhxkW473GirvdeD9DOUS2_Nd-d3qfP2wusDiwDCn4xmIegcrKGkFZsCs7f3hNSkWX1qxCnA5lmP89s5xdl8rbgtVye2eFLpnySPsrYn0Waf64SSuy26lOPuMW2mURSbnpFnuHnuumjqpXGWa-r8HHFnj4J98-t4vQT6nyoGUcgERua8st9r0r4bBJ"
+        },
+        {
+          "title": "Validação de API Restful",
+          "description": "Suíte abrangente de testes de API usando Jest e Supertest com integração contínua.",
+          "tags": ["Jest", "API", "GitHub Actions"],
+          "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCEfPhXrmuH0k5fX293NTk8w47zmfIS7O1eoPDN14K7ZGjCdWq7eAc5o9bKj1v44T3DS_kJDKGbpCAfc1I-VqWnNAn_hrgRghwLZZnFj1ThcIDfZ8nJAoft4Qo4C4hxjUjWsmrz2cevJG_ncl54tXBe61XnPkfI_Fg0tzEpQxhmykRRHZWu82-jNweAkJuszs4Ojo2jCs6nvLDlglVpWyKGDvNyMdlg5BTKKqcZBtbdY4psWuu_K17SkGhlDgoX3h5FRnEeWpvC9wr3"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Feito com precisão e qualidade."
+    },
+    "contact": {
+      "title": "Vamos construir qualidade juntos",
+      "subtitle": "Estou aberta a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato.",
+      "emailBtn": "Me envie um E-mail"
+    }
+  },
+  "en": {
+    "profile": {
+      "name": "Caroline Gonzaga",
+      "initials": "CG",
+      "title": "Software QA Engineer | Manual & Automated Testing",
+      "subtitle": "Focused on planning, executing, and continuously improving test strategies for modern applications.",
+      "email": "carolinegonzaga04@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/caroline-gonzaga-440072304/",
+      "github": "https://github.com/CaahG",
+      "twitter": "#",
+      "behance": "#",
+      "medium": "#",
+      "coverageRate": "95%+",
+      "resumeLink": "/cv-caroline-gonzaga.pdf"
+    },
+    "nav": {
+      "about": "About",
+      "experience": "Experience",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact",
+      "value": "Why Me?",
+      "certs": "Certifications"
+    },
+    "hero": {
+      "title": "Software QA Engineer &",
+      "highlight": "Automation Focused",
+      "viewProjects": "View Projects",
+      "getInTouch": "Get in Touch",
+      "downloadResume": "Download Resume"
+    },
+    "stats": [
+      { "label": "Automation", "value": "Playwright", "type": "primary" },
+      { "label": "Mobile", "value": "Appium", "type": "primary" },
+      { "label": "Testing", "value": "Jest", "type": "primary" },
+      { "label": "API", "value": "Postman", "type": "secondary" },
+      { "label": "Database", "value": "Postgres/SQL", "type": "primary" }
+    ],
+    "valueProposition": {
+      "title": "What I bring to the table",
+      "items": [
+        {
+          "title": "Quality-First Mindset",
+          "description": "Ensuring every release meets the highest standards of excellence and functionality.",
+          "icon": "Verified"
+        },
+        {
+          "title": "AI-Driven Efficiency",
+          "description": "Strategic use of AI tools to accelerate testing cycles and increase precision.",
+          "icon": "Zap"
+        },
+        {
+          "title": "Full-Stack Testing",
+          "description": "Complete mastery in Web, Mobile, and API automation, ensuring total coverage.",
+          "icon": "Layers"
+        },
+        {
+          "title": "Agile Collaboration",
+          "description": "Seamless integration into Scrum teams, focused on constructive feedback and process improvement.",
+          "icon": "Users"
+        }
+      ]
+    },
+    "experience": [
+      {
+        "role": "Software QA Analyst",
+        "company": "XBri",
+        "period": "February 2025 — Present",
+        "description": "Technical leadership in quality strategies, focusing on automation and continuous integration.",
+        "highlights": [
+          "Performed manual and automated testing on web and mobile responsiveness.",
+          "Validated data integrity in PostgreSQL databases.",
+          "Developed CI workflows using GitHub Actions for test suite automation.",
+          "Created detailed test plans and usability guides.",
+          "Actively participated in Scrum ceremonies (Daily, Planning, Retro).",
+          "Executed testing in Docker and Docker Compose environments."
+        ],
+        "current": true
+      },
+      {
+        "role": "QA Analyst",
+        "company": "AxeHarbor",
+        "period": "January 2023 — March 2025",
+        "description": "Beginning of the IT journey with a focus on internal product quality assurance.",
+        "highlights": [
+          "Developed and executed automated tests with Playwright for Web and API.",
+          "API QA using Postman for requirement validation.",
+          "Meticulous documentation of processes and creation of best practice guides.",
+          "Constructive feedback in agile ceremonies for usability improvement."
+        ],
+        "current": false
+      }
+    ],
+    "skills": [
+      {
+        "category": "Automation & Mobile",
+        "icon": "Bot",
+        "items": ["Playwright", "Appium (Android/iOS)", "Jest", "Cypress", "Selenium"],
+        "color": "primary"
+      },
+      {
+        "category": "Manual & Strategy",
+        "icon": "Search",
+        "items": ["Regression Testing", "Exploratory", "Acceptance", "Planning", "Dev Cycle"],
+        "color": "primary"
+      },
+      {
+        "category": "Tools & Backend",
+        "icon": "Wrench",
+        "items": ["Postman", "SQL (Postgres/SQLite)", "Docker", "Git/Github", "Jira/ClickUp"],
+        "color": "secondary"
+      },
+      {
+        "category": "AI & Innovation",
+        "icon": "Brain",
+        "items": ["Gemini", "OpenAI", "AI-Driven QA", "Prompt Engineering"],
+        "color": "primary",
+        "special": true
+      }
+    ],
+    "skillsHeader": {
+      "subtitle": "Cross-Platform Testing (Web, Mobile, API) with AI integration"
+    },
+    "certifications": {
+      "title": "Licenses & Certifications",
+      "items": [
+        {
+          "title": "QA Engineer",
+          "issuer": "TripleTen",
+          "date": "Nov 2025",
+          "link": "https://www.linkedin.com/in/caroline-gonzaga-440072304/overlay/1772377401709/single-media-viewer?type=DOCUMENT"
+        },
+        {
+          "title": "Web App Testing Automation",
+          "issuer": "TripleTen Brasil",
+          "date": "Oct 2025",
+          "link": "https://www.linkedin.com/in/caroline-gonzaga-440072304/details/certifications/"
+        },
+        {
+          "title": "Mobile Testing!",
+          "issuer": "TripleTen Brasil",
+          "date": "Aug 2025",
+          "link": "https://tripleten.com/trainer/qa-engineer/lesson/55668ac6-fdef-49d7-aa0a-d6f7690b567a/"
+        },
+        {
+          "title": "DevOps Culture Fundamentals",
+          "issuer": "Rocketseat",
+          "date": "May 2025",
+          "link": "https://app.rocketseat.com.br/certificates/86f203a8-4a88-434e-af28-aa7e95bc5b14"
+        },
+        {
+          "title": "Mastering PLAYWRIGHT!",
+          "issuer": "Udemy",
+          "date": "May 2024",
+          "link": "https://www.udemy.com/certificate/UC-3374fb8f-2d7f-4c87-84a4-924555728bea/"
+        },
+        {
+          "title": "Mastering Postman: Testing and Automating APIs",
+          "issuer": "Udemy",
+          "date": "Apr 2024",
+          "link": "https://ude.my/UC-2c19cab7-4497-4bdd-9c56-c8187f81ef71"
+        },
+        {
+          "title": "Complete Git: From Basic to Advanced",
+          "issuer": "Udemy",
+          "date": "Mar 2024",
+          "link": "https://ude.my/UC-7d4e53ae-3324-44dd-b8bb-fda67b532de4"
+        },
+        {
+          "title": "Automated Testing + COMPLETE Software Testing Course",
+          "issuer": "Udemy",
+          "date": "Jun 2024",
+          "link": "https://www.udemy.com/certificate/UC-d2d65d22-55c6-44e1-82b8-28f0ebe27838/"
+        },
+        {
+          "title": "JAVASCRIPT and Real Projects",
+          "issuer": "Udemy",
+          "date": "May 2024",
+          "link": "https://www.udemy.com/certificate/UC-6a46bf31-8b47-4386-8f15-2c478cd08569/"
+        },
+        {
+          "title": "Web Development for QAs",
+          "issuer": "Udemy",
+          "date": "Mar 2024",
+          "link": "https://ude.my/UC-557bc88c-533b-422f-94d3-cafddfffe84c"
+        },
+        {
+          "title": "API Testing",
+          "issuer": "TripleTen",
+          "date": "Sep 2024",
+          "link": "https://www.linkedin.com/in/caroline-gonzaga-440072304/details/certifications/"
+        },
+        {
+          "title": "Web App Testing",
+          "issuer": "TripleTen",
+          "date": "Aug 2024",
+          "link": "https://www.linkedin.com/in/caroline-gonzaga-440072304/details/certifications/"
+        }
+      ]
+    },
+    "education": {
+      "title": "Education & Certifications",
+      "badge": {
+        "title": "Continuous Learner",
+        "subtitle": "Always updating with the latest QA trends"
+      },
+      "items": [
+        {
+          "title": "Software Engineering Bootcamp",
+          "institution": "TripleTen Brasil",
+          "year": "2024"
+        },
+        {
+          "title": "Digital Marketing Technologist",
+          "institution": "Higher Education",
+          "year": "2022"
+        },
+        {
+          "title": "IT Technical Course",
+          "institution": "Technical School",
+          "year": "2018"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "subtitle": "Real-world testing solutions",
+      "githubLink": "GitHub Repositories",
+      "items": [
+        {
+          "title": "E-Commerce Automation Suite",
+          "description": "Robust E2E testing framework using Playwright and Page Object Model for critical checkout flows.",
+          "tags": ["Playwright", "TypeScript", "CI/CD"],
+          "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBmAS1TQ_0gk7ZTPKWgm1LjE8DzPf0Se8aDaT637QZOZwfBVAUTY8dYiT6t_CeJ-y8cWM6Ekdsb3PtSKtJcL0tqhxkW473GirvdeD9DOUS2_Nd-d3qfP2wusDiwDCn4xmIegcrKGkFZsCs7f3hNSkWX1qxCnA5lmP89s5xdl8rbgtVye2eFLpnySPsrYn0Waf64SSuy26lOPuMW2mURSbnpFnuHnuumjqpXGWa-r8HHFnj4J98-t4vQT6nyoGUcgERua8st9r0r4bBJ"
+        },
+        {
+          "title": "Restful API Validation",
+          "description": "Comprehensive API testing suite using Jest and Supertest with continuous integration.",
+          "tags": ["Jest", "API", "GitHub Actions"],
+          "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCEfPhXrmuH0k5fX293NTk8w47zmfIS7O1eoPDN14K7ZGjCdWq7eAc5o9bKj1v44T3DS_kJDKGbpCAfc1I-VqWnNAn_hrgRghwLZZnFj1ThcIDfZ8nJAoft4Qo4C4hxjUjWsmrz2cevJG_ncl54tXBe61XnPkfI_Fg0tzEpQxhmykRRHZWu82-jNweAkJuszs4Ojo2jCs6nvLDlglVpWyKGDvNyMdlg5BTKKqcZBtbdY4psWuu_K17SkGhlDgoX3h5FRnEeWpvC9wr3"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Made with precision and quality."
+    },
+    "contact": {
+      "title": "Let's build quality together",
+      "subtitle": "I'm currently open to new opportunities and collaborations. Feel free to reach out.",
+      "emailBtn": "Send me an Email"
+    }
+  }
+}
