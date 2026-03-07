@@ -150,7 +150,7 @@ export default function App() {
         </section>
 
         {/* Quick Stats / Pipeline Metrics */}
-        <section className="py-12 bg-slate-50 dark:bg-slate-900/30 border-y border-slate-200 dark:border-slate-800">
+        <section className="py-12 bg-slate-900/10 border-y border-slate-800">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center gap-2 mb-8">
               <Activity className="w-5 h-5 text-primary" />
@@ -164,7 +164,7 @@ export default function App() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.1 }}
-                  className="relative group flex flex-col gap-2 rounded-xl p-6 border border-slate-200 dark:border-slate-800 bg-background-dark shadow-sm hover:border-primary/50 transition-colors"
+                  className="relative group flex flex-col gap-2 rounded-xl p-6 border border-slate-800 bg-background-dark shadow-sm hover:border-primary/50 transition-colors"
                 >
                   <div className="absolute top-3 right-3">
                     <CheckCircle2 className="w-3 h-3 text-primary opacity-50" />
@@ -267,7 +267,7 @@ export default function App() {
         </section>
 
         {/* Skills as Toolkits */}
-        <section className="py-24 bg-slate-50 dark:bg-[#0a0c10] border-y border-slate-200 dark:border-slate-800" id="skills">
+        <section className="py-24 bg-background-dark border-y border-slate-800" id="skills">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-20">
               <StatusBadge type="info" label="Technology Stack" />
@@ -292,7 +292,7 @@ export default function App() {
                     {skill.items.map((item, iIdx) => (
                       <span
                         key={iIdx}
-                        className={`px-3 py-1.5 rounded-lg text-xs font-mono font-bold tracking-tight ${skill.special ? 'bg-primary/5 text-primary border border-primary/20' : 'bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-700'}`}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-mono font-bold tracking-tight ${skill.special ? 'bg-primary/5 text-primary border border-primary/20' : 'bg-slate-800 text-slate-500 dark:text-slate-400 border border-slate-700'}`}
                       >
                         {item}
                       </span>
@@ -312,7 +312,7 @@ export default function App() {
                 <h2 className="text-3xl font-bold">{content.education.title}</h2>
                 <div className="space-y-4">
                   {content.education.items.map((edu, idx) => (
-                    <div key={idx} className="p-6 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-primary/50 transition-colors group">
+                    <div key={idx} className="p-6 rounded-xl border border-slate-800 hover:border-primary/50 transition-colors group">
                       <div className="flex items-start justify-between">
                         <div>
                           <h4 className="font-bold text-lg group-hover:text-primary transition-colors">{edu.title}</h4>
@@ -339,7 +339,7 @@ export default function App() {
         </section>
 
         {/* Certifications */}
-        <section className="py-20 bg-slate-50 dark:bg-slate-900/30" id="certs">
+        <section className="py-20 bg-slate-900/10" id="certs">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold mb-12 flex items-center gap-3">
               <Award className="w-8 h-8 text-primary" />
@@ -383,7 +383,7 @@ export default function App() {
         </section>
 
         {/* Projects as Automated Scenarios */}
-        <section className="py-24 bg-slate-50 dark:bg-slate-900/30 border-y border-slate-200 dark:border-slate-800 qa-grid" id="projects">
+        <section className="py-24 bg-slate-900/10 border-y border-slate-800 qa-grid" id="projects">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-6">
               <div className="space-y-2">
@@ -404,7 +404,7 @@ export default function App() {
                   whileHover={{ y: -10 }}
                   className="group rounded-2xl overflow-hidden bg-background-dark border border-slate-800 shadow-sm hover:shadow-2xl transition-all"
                 >
-                  <div className="aspect-video bg-slate-100 dark:bg-slate-800 overflow-hidden relative border-b border-slate-200 dark:border-slate-800">
+                  <div className="aspect-video bg-slate-800 overflow-hidden relative border-b border-slate-800">
                     <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity z-10 flex items-center justify-center backdrop-blur-[2px]">
                       <div className="bg-slate-950 px-6 py-3 rounded-full border border-primary/50 text-primary font-bold shadow-2xl scale-90 group-hover:scale-100 transition-transform flex items-center gap-2">
                         <ExternalLink className="w-5 h-5" />
@@ -427,7 +427,7 @@ export default function App() {
                     </p>
                     <div className="flex flex-wrap items-center gap-3">
                       {project.tags.map((tag, tIdx) => (
-                        <span key={tIdx} className="px-3 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-[10px] font-bold uppercase tracking-wider text-slate-500 border border-slate-200 dark:border-slate-700">
+                        <span key={tIdx} className="px-3 py-1 rounded-md bg-slate-800 text-[10px] font-bold uppercase tracking-wider text-slate-500 border border-slate-700">
                           {tag}
                         </span>
                       ))}
@@ -456,14 +456,14 @@ export default function App() {
               </a>
               <a
                 href={content.profile.linkedin}
-                className="flex items-center gap-3 px-8 py-4 rounded-xl bg-slate-100 dark:bg-slate-800 font-bold hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
+                className="flex items-center gap-3 px-8 py-4 rounded-xl bg-slate-800 font-bold hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
                 LinkedIn
               </a>
               <a
                 href={content.profile.github}
-                className="flex items-center gap-3 px-8 py-4 rounded-xl bg-slate-100 dark:bg-slate-800 font-bold hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
+                className="flex items-center gap-3 px-8 py-4 rounded-xl bg-slate-800 font-bold hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
               >
                 <Github className="w-5 h-5" />
                 GitHub
@@ -474,7 +474,7 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-200 dark:border-slate-800 py-12">
+      <footer className="border-t border-slate-800 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-2">
