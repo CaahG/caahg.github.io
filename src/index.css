@@ -1,17 +1,45 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Space Grotesk", sans-serif;
-  --color-primary: #22d86e;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+  --color-primary: #00ff88;
   --color-secondary: #a855f7;
   --color-background-light: #f5f7f8;
-  --color-background-dark: #0c0f12;
+  --color-background-dark: #0a0c10;
+  --color-success: #00ff88;
+  --color-error: #ff4444;
+  --color-warning: #ffaa00;
 }
 
 @layer base {
   body {
     @apply font-display bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-300;
   }
+  
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+.qa-grid {
+  background-image: radial-gradient(circle at 2px 2px, rgba(0, 255, 136, 0.05) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.scanline {
+  width: 100%;
+  height: 2px;
+  background: rgba(0, 255, 136, 0.1);
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  animation: scan 4s linear infinite;
+}
+
+@keyframes scan {
+  0% { top: 0; }
+  100% { top: 100%; }
 }
 
 .material-symbols-outlined {
