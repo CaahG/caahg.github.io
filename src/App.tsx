@@ -164,7 +164,7 @@ export default function App() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.1 }}
-                  className="relative group flex flex-col gap-2 rounded-xl p-6 border border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark shadow-sm hover:border-primary/50 transition-colors"
+                  className="relative group flex flex-col gap-2 rounded-xl p-6 border border-slate-200 dark:border-slate-800 bg-background-dark shadow-sm hover:border-primary/50 transition-colors"
                 >
                   <div className="absolute top-3 right-3">
                     <CheckCircle2 className="w-3 h-3 text-primary opacity-50" />
@@ -180,7 +180,7 @@ export default function App() {
         </section>
 
         {/* Value Proposition / Quality Pillars */}
-        <section className="py-24 bg-white dark:bg-background-dark relative" id="value">
+        <section className="py-24 bg-background-dark relative" id="value">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <StatusBadge type="success" label="Core Philosophy" />
@@ -231,7 +231,7 @@ export default function App() {
               {content.experience.map((exp, idx) => (
                 <div key={idx} className="relative pl-10 before:absolute before:left-[11px] before:top-2 before:h-full before:w-[2px] before:bg-slate-200 dark:before:bg-slate-800 last:before:hidden">
                   <div className={`absolute left-0 top-1 h-6 w-6 rounded-full border-4 border-background-dark ${exp.current ? 'bg-primary animate-pulse' : 'bg-slate-300 dark:bg-slate-700'}`}></div>
-                  <div className="space-y-4 p-6 rounded-2xl bg-white dark:bg-slate-900/20 border border-slate-100 dark:border-slate-800 hover:border-primary/30 transition-all">
+                  <div className="space-y-4 p-6 rounded-2xl bg-slate-900/20 border border-slate-800 hover:border-primary/30 transition-all">
                     <div className="flex flex-wrap items-center justify-between gap-4">
                       <div className="space-y-1">
                         <h3 className="text-xl font-bold flex items-center gap-2">
@@ -279,7 +279,7 @@ export default function App() {
                 <motion.div
                   key={idx}
                   whileHover={{ y: -8 }}
-                  className="rounded-3xl bg-white dark:bg-slate-900/40 p-8 shadow-sm border border-slate-200 dark:border-slate-800 transition-all hover:border-primary/50 relative group"
+                  className="rounded-3xl bg-slate-900/40 p-8 shadow-sm border border-slate-800 transition-all hover:border-primary/50 relative group"
                 >
                   <div className={`h-14 w-14 rounded-2xl ${skill.color === 'primary' ? 'bg-primary/10 text-primary' : 'bg-secondary/10 text-secondary'} flex items-center justify-center mb-8 shadow-inner`}>
                     {skill.icon === 'Bot' && <Bot className="w-8 h-8" />}
@@ -353,7 +353,7 @@ export default function App() {
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.05 }}
-                  className="p-6 rounded-xl bg-white dark:bg-background-dark border border-slate-200 dark:border-slate-800 hover:border-secondary/50 transition-all group"
+                  className="p-6 rounded-xl bg-background-dark border border-slate-800 hover:border-secondary/50 transition-all group"
                 >
                   <div className="flex flex-col h-full justify-between gap-4">
                     <div>
@@ -402,7 +402,7 @@ export default function App() {
                 <motion.div
                   key={idx}
                   whileHover={{ y: -10 }}
-                  className="group rounded-2xl overflow-hidden bg-white dark:bg-background-dark border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-2xl transition-all"
+                  className="group rounded-2xl overflow-hidden bg-background-dark border border-slate-800 shadow-sm hover:shadow-2xl transition-all"
                 >
                   <div className="aspect-video bg-slate-100 dark:bg-slate-800 overflow-hidden relative border-b border-slate-200 dark:border-slate-800">
                     <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity z-10 flex items-center justify-center backdrop-blur-[2px]">
