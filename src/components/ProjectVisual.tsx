@@ -8,6 +8,37 @@ interface ProjectVisualProps {
 export const ProjectVisual = ({ title, image }: ProjectVisualProps) => {
     // Simple code snippets based on common project types
     const getCodeSnippet = () => {
+        if (title.toLowerCase().includes('xbri')) {
+            return [
+                `describe('XBri API - User CRUD', () => {`,
+                `  test('should create user', async () => {`,
+                `    const res = await axios.post('/users', newUser);`,
+                `    expect(res.status).toBe(201);`,
+                `    expect(res.data).toHaveProperty('id');`,
+                `  });`,
+                `  test('should find user by id', async () => {`,
+                `    const res = await axios.get(\`/users/\${id}\`);`,
+                `    expect(res.status).toBe(200);`,
+                `  });`,
+                `});`
+            ];
+        }
+        if (title.toLowerCase().includes('devio')) {
+            return [
+                `test('devio: positive registration', async ({ page }) => {`,
+                `  await page.goto('/register');`,
+                `  await fillRegistrationForm(page, validData);`,
+                `  await page.click('#submit-btn');`,
+                `  await expect(page.locator('.success')).toBeVisible();`,
+                `});`,
+                `test('devio: negative scenario (bug identified)', async ({ page }) => {`,
+                `  await page.goto('/register');`,
+                `  await page.click('#submit-btn');`,
+                `  // Should show validation but 🐞 found here`,
+                `  expect(page.locator('.error')).toBeVisible();`,
+                `});`
+            ];
+        }
         if (title.toLowerCase().includes('posterstore')) {
             return [
                 `test('posterstore e2e flow', async ({ page }) => {`,

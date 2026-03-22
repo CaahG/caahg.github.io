@@ -248,6 +248,20 @@
           "tags": ["QA Full-Stack", "Docker", "Fastify", "React", "Redis"],
           "image": "/projects/tacomex.png",
           "link": "https://github.com/CaahG/taco-teste-fullstack"
+        },
+        {
+          "title": "Automação de API - Desafio XBri",
+          "description": "Implementação de testes automatizados para API de usuários com Jest e Axios, cobrindo fluxos de CRUD e integração contínua via GitHub Actions.",
+          "tags": ["Jest", "Axios", "API Automation", "CI/CD"],
+          "image": "/projects/xbri.png",
+          "link": "https://github.com/CaahG/Desafio-XBRI-COM-BR"
+        },
+        {
+          "title": "QA Estratégico - Desafio Devio",
+          "description": "Análise de qualidade 360º com testes manuais, exploratórios (14 bugs reportados) e automação de interface com Playwright.",
+          "tags": ["Manual Testing", "Exploratory", "Playwright", "Bug Reporting"],
+          "image": "/projects/devio.png",
+          "link": "https://github.com/CaahG/Desafio-DEVIO"
         }
       ]
     },
@@ -509,6 +523,20 @@
           "tags": ["Full-Stack QA", "Docker", "Fastify", "React", "Redis"],
           "image": "/projects/tacomex.png",
           "link": "https://github.com/CaahG/taco-teste-fullstack"
+        },
+        {
+          "title": "API Automation - XBri Challenge",
+          "description": "Implementation of automated tests for a user API with Jest and Axios, covering CRUD flows and continuous integration via GitHub Actions.",
+          "tags": ["Jest", "Axios", "API Automation", "CI/CD"],
+          "image": "/projects/xbri.png",
+          "link": "https://github.com/CaahG/Desafio-XBRI-COM-BR"
+        },
+        {
+          "title": "Strategic QA - Devio Challenge",
+          "description": "360º quality analysis including manual, exploratory testing (14 bugs reported), and UI automation with Playwright.",
+          "tags": ["Manual Testing", "Exploratory", "Playwright", "Bug Reporting"],
+          "image": "/projects/devio.png",
+          "link": "https://github.com/CaahG/Desafio-DEVIO"
         }
       ]
     },
