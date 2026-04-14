@@ -507,7 +507,7 @@ export default function App() {
                     )}
                     {/* thumbnail */}
                     <div className="aspect-video overflow-hidden relative border-b border-[#ddd6fe]">
-                      <div className="absolute inset-0 bg-primary/25 opacity-0 group-hover:opacity-100 transition-opacity z-10 flex items-center justify-center backdrop-blur-[2px]">
+                      <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity z-10 flex items-center justify-center">
                         <div className="bg-primary text-[#faf5ff] px-6 py-3 rounded-full font-bold shadow-2xl scale-90 group-hover:scale-100 transition-transform flex items-center gap-2">
                           <ExternalLink className="w-4 h-4" />
                           <span>Inspect Scenario</span>
